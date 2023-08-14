@@ -1,0 +1,23 @@
+###
+POST http://localhost:3000/api/proyectos HTTP/1.1
+Content-Type: application/json
+
+{
+    "system_id":"111111",
+    "system_name": "Proyecto1",
+    "location": "Proyecto1",
+    "inverter_brand": "Proyecto1",
+    "panel_brand": "Proyecto1",
+    "panel_power": 111,
+    "panel_quantity": 111,
+    "installed_power": 111,
+    "current_generation": 111,
+    "total_generation": 111
+}
+
+###
+GET http://localhost:3000/api/proyectos HTTP/1.1
+
+
+###
+DELETE http://localhost:3000/api/proyectos/111111 HTTP/1.1
